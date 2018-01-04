@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aerodynamicaviation.astroshacker.MainActivity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/citabria" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="About"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/abouttext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="10"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:text="Our tailwheel fleet includes Citabrias, Decathlons, Aeronca Champ, Husky, and Cessna 170 for flight training and rental. We make the tailwheel transition easy and affordable for you while making you proficient to fly many taildraggers. We also have a selection of tricycle-gear airplanes such as Evektor SportStar light sport (LSA), Cessna 172, 172RG, Piper Arrow and Twin Comanche for all pilot licenses and ratings. The newest certification for commercial drone operation can also be completed with one of our instructors. Whether you’ve always dreamed of becoming a pilot, have an insane desire to tumble through the air in an aerobatic aircraft or you want to continue to advanced flight training, AeroDynamic Aviation can take you to a whole new level! \n
+    \n Our California flight school facilities are located at Reid Hillview airport in San Jose (KRHV), Salinas Municipal Airport (KSNS) in Salinas; and at Monterey Regional Airport (KMRY) in Monterey. We offer a full selection of Gift Certificates ranging from first flight experience to aerobatic thrills. Whether birthday, anniversary, wedding proposal or holidays, this is a gift they will never forget."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about" />
+
+</android.support.constraint.ConstraintLayout>

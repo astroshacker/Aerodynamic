@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_flight_black_24dp"
+        android:title="Fleet"
+        android:enabled = "false"/>
+
+    <item
+        android:id="@+id/navigation_new"
+        android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+        android:title="Blog"
+        android:enabled = "true"/>
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_schedule_black_24dp"
+        android:title="Schedule"
+        android:enabled = "true"/>
+
+</menu>

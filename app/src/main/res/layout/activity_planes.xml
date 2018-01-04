@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aerodynamicaviation.astroshacker.Planes">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation2" />
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/navigation2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/champ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:text="Aeronca Champ 7AC"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/alpha" />
+
+
+            <TextView
+                android:id="@+id/eca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="American Champion Citabria 7ECA "
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/bravo" />
+
+            <TextView
+                android:id="@+id/gca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="American Champion Citabria 7GCAA "
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/charlie" />
+
+            <TextView
+                android:id="@+id/kcab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="American Champion Decathlon 8KCAB"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/delta" />
+
+            <TextView
+                android:id="@+id/husky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aviat Husky A-1B"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/echo" />
+
+            <TextView
+                android:id="@+id/cessnab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cessna 170B"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/foxtrot" />
+
+            <TextView
+                android:id="@+id/cessnam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cessna Skyhawk 172"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/golf" />
+
+            <TextView
+                android:id="@+id/sportStar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evektor SportStar Plus"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/kilo" />
+
+            <TextView
+                android:id="@+id/aatd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PFC AATD Simulator"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/lima" />
+
+            <TextView
+                android:id="@+id/turbo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piper Turbo Arrow "
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/mike" />
+
+            <TextView
+                android:id="@+id/twin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piper Twin Comanche"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="20dp"
+                android:src="@drawable/november" />
+
+            <TextView
+                android:id="@+id/batd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Redbird BATD Simulator"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingBottom="35dp"
+                android:src="@drawable/oscar" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
